@@ -4,6 +4,9 @@ IDE：MyEclipse 2016
 JDK版本：1.8.0_121
 浏览器：谷歌浏览器、360浏览器（极速模式）（涉及网页前端设计，后端开发表示很苦闷）
 涉及技术：
+
+
+
 Netty 4
 WebSocket + HTTP
 Spring MVC + Spring
