@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="chatroom:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2a0767b7-c955-44fb-8448-77977d9b409e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.component" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.component" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/common/AppContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/common/AppContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/dao/GroupInfoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/dao/GroupInfoDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/dao/UserInfoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/dao/UserInfoDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/dao/impl/GroupInfoDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/dao/impl/GroupInfoDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/dao/impl/UserInfoDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/dao/impl/UserInfoDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/model/po/GroupInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/model/po/GroupInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/model/po/UserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/model/po/UserInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/model/vo/ResponseJson.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/model/vo/ResponseJson.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/service/ChatService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/service/ChatService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/service/FileUploadService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/service/FileUploadService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/service/SecurityService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/service/SecurityService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/service/UserInfoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/service/UserInfoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/service/impl/ChatServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/service/impl/ChatServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/service/impl/FileUploadServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/service/impl/FileUploadServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/service/impl/SecurityServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/service/impl/SecurityServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/service/impl/UserInfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/service/impl/UserInfoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/util/ChatType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/util/ChatType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/util/Constant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/util/Constant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/util/FileUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/util/FileUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/util/JsonMsgHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/util/JsonMsgHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/web/controller/ChatroomController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/web/controller/ChatroomController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/web/controller/FileUploadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/web/controller/FileUploadController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/web/controller/SecurityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/web/controller/SecurityController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/web/controller/common/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/web/controller/common/GlobalExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/web/interceptor/UserAuthInteceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/web/interceptor/UserAuthInteceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/web/websocket/HttpRequestHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/web/websocket/HttpRequestHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/web/websocket/WebSocketChildChannelHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/web/websocket/WebSocketChildChannelHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/web/websocket/WebSocketServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/web/websocket/WebSocketServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/web/websocket/WebSocketServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/kanarien/chatroom/web/websocket/WebSocketServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/m2e-jee/web-resources/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/m2e-jee/web-resources/META-INF/maven/pers.kanarien/chatroom/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/m2e-jee/web-resources/META-INF/maven/pers.kanarien/chatroom/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/com/WebSocket/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/com/WebSocket/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../readme.md.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../readme.md.bak" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1619870980">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="java" value="13" />
+          <entry key="xml" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="13" />
+          <entry key="XML" value="4" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pers/kanarien/chatroom/web/controller/ChatroomController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="40" column="45" lean-forward="true" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pers/kanarien/chatroom/web/controller/FileUploadController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pers/kanarien/chatroom/web/controller/SecurityController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="20" column="35" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pers/kanarien/chatroom/web/websocket/WebSocketServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-108">
+              <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\MavenRepository" />
+        <option name="mavenHome" value="D:/server/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\server\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="chatroom" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="chatroom" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="chatroom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="chatroom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="Webso&#9;PSI&#9;JAVA://pers.kanarien.chatroom.web.websocket.WebSocketServer&#10;3333&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586012906754" />
+    <property name="last_opened_file_path" value="E:/Intellij" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Chatroom" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.31" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="chatroom:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_chatroom" />
+        <option name="JNDI_PORT" value="1899" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="6350" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="chatroom:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\may\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a0767b7-c955-44fb-8448-77977d9b409e" name="Default Changelist" comment="" />
+      <created>1585994459831</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585994459831</updated>
+      <workItem from="1585994461927" duration="5118000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5118000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20574887" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.7077176" />
+      <window_info anchor="bottom" id="Spring" weight="0.32840723" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32840723" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.54844004" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32840723" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="JSF" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="CDI" />
+      <window_info anchor="right" id="Maven Projects" weight="0.32980332" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1029">
+          <caret line="49" column="31" lean-forward="true" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/ApplicationContext-netty.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="10" column="72" lean-forward="true" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/ApplicationContext-main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-126">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/MavenRepository/org/springframework/spring-web/4.3.12.RELEASE/spring-web-4.3.12.RELEASE.jar!/org/springframework/web/multipart/commons/CommonsMultipartResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-819">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/ApplicationContext-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="71" column="32" lean-forward="true" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pers/kanarien/chatroom/web/websocket/HttpRequestHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="78" column="7" lean-forward="true" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pers/kanarien/chatroom/web/websocket/WebSocketChildChannelHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-117">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../javasource/src/com/company/source/java/util/concurrent/locks/LockSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="229" column="47" selection-start-line="229" selection-start-column="47" selection-end-line="229" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pers/kanarien/chatroom/web/websocket/WebSocketServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pers/kanarien/chatroom/web/interceptor/UserAuthInteceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pers/kanarien/chatroom/web/controller/ChatroomController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="40" column="45" lean-forward="true" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pers/kanarien/chatroom/web/controller/FileUploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pers/kanarien/chatroom/util/ChatType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pers/kanarien/chatroom/web/controller/SecurityController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pers/kanarien/chatroom/web/websocket/WebSocketServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108">
+          <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>chatroom:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (chatroom)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>tomcatlib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>chatroom</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.slf4j:slf4j-api:1.6.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

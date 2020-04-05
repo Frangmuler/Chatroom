@@ -1,19 +1,6 @@
 # 互联网实时聊天系统 (Spring + Netty + Websocket)
 
-IDE：MyEclipse 2016
-JDK版本：1.8.0_121
-浏览器：谷歌浏览器、360浏览器（极速模式）（涉及网页前端设计，后端开发表示很苦闷）
-涉及技术：
 
-
-
-Netty 4
-WebSocket + HTTP
-Spring MVC + Spring
-JQuery
-Bootstrap 3 + Bootstrap-fileinput
-Maven 3.5
-Tomcat 8.0
 
 ## 0. 前言
 最近一段时间在学习Netty网络框架，又趁着计算机网络的课程设计，决定以Netty为核心，以WebSocket为应用层通信协议做一个互联网聊天系统，整体而言就像微信网页版一样，但考虑到这个聊天系统的功能非常多，因此只打算实现核心的聊天功能，包括单发、群发、文件发送，然后把项目与Spring整合做成开源、可拓展的方式，给大家参考、讨论、使用，欢迎大家的指点。
@@ -28,21 +15,23 @@ Tomcat 8.0
 > WebSocket是为了解决HTTP协议中通信只能由客户端发起这个弊端而出现的，WebSocket基于HTTP5协议，借用HTTP进行握手、升级，能够做到轻量的、高效的、双向的在客户端和服务端之间传输文本数据。
 
 ## 1. 技术准备
-* IDE：MyEclipse 2016
-* JDK版本：1.8.0_121
-* 浏览器：谷歌浏览器、360浏览器（极速模式）（涉及网页前端设计，后端开发表示很苦闷）
-* 涉及技术：
-  * Netty 4
-  * WebSocket + HTTP
-  * Spring MVC + Spring
-  * JQuery
-  * Bootstrap 3 + Bootstrap-fileinput
-  * Maven 3.5
-  * Tomcat 8.0
+*IDE：IDEA 2018.
+*JDK版本：1.8.0_181
+浏览器：谷歌浏览器、360浏览器（极速模式）（涉及网页前端设计，后端开发表示很苦闷）
+涉及技术：
+
+Netty 4
+WebSocket + HTTP
+Spring MVC + Spring
+JQuery
+Bootstrap 3 + Bootstrap-fileinput
+Maven 3.3.9
+Tomcat 8.0
 
 ## 2. 整体说明
 ### 2.1 设计思想
-整个通信系统**以Tomcat作为核心服务器运行，其下另开一个线程运行Netty WebSocket服务器**，Tomcat服务器主要处理客户登录、个人信息管理等的HTTP类型请求（通常的业务类型），端口为8080，Netty WebSockt服务器主要处理用户消息通信的WebSocket类型请求，端口为3333。用户通过浏览器登录后，浏览器会维持一个Session对象（有效时间30分钟）来保持登录状态，Tomcat服务器会返回用户的个人信息，同时记录在线用户，根据用户id建立一条WebSocket连接并保存在后端以便进行实时通信。当一个用户向另一用户发起通信，服务器会根据消息内容中的对话方用户id，找到保存的WebSocket连接，通过该连接发送消息，对方就能够收到即时收到消息。当用户注销或退出时，释放WebSocket连接，清空Session对象中的登录状态。
+整个通信系统**以Tomcat作为核心服务器运行，其下另开一个线程运行Netty WebSocket服务器**，Tomcat服务器主要处理客户登录、个人信息管理等的HTTP类型请求（通常的业务类型），端口为8080，Netty WebSockt服务器主要处理用户消息通信的WebSocket类型请求，
+端口为3333。用户通过浏览器登录后，浏览器会维持一个Session对象（有效时间30分钟）来保持登录状态，Tomcat服务器会返回用户的个人信息，同时记录在线用户，根据用户id建立一条WebSocket连接并保存在后端以便进行实时通信。当一个用户向另一用户发起通信，服务器会根据消息内容中的对话方用户id，找到保存的WebSocket连接，通过该连接发送消息，对方就能够收到即时收到消息。当用户注销或退出时，释放WebSocket连接，清空Session对象中的登录状态。
 
 事实上Netty也可以用作一个HTTP服务器，而这里使用Spring MVC处理HTTP请求是出于熟悉的缘故，也比较接近传统开发的方式。
 
